@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "duckduckgo-api"
+version = "0.1.0"
+description = "CLI tool for searching the internet with DuckDuckGo"
+authors = ["Paul Kiley"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
